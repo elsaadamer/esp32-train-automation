@@ -1,0 +1,19 @@
+# Arduino build output
+build/
+*.bin
+*.elf
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local credentials (never commit real WiFi names, passwords or IPs)
+secrets.h
+config_local.py
+
+# Operating system files
+.DS_Store
+Thumbs.db
